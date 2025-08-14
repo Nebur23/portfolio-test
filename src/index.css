@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Monofett&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Monofett&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playpen+Sans:wght@100..800&family=Space+Grotesk:wght@300..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Monofett&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playpen+Sans:wght@100..800&family=Space+Grotesk:wght@300..700&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-grotesk: Grotesk, sans-serif;
+  --font-monofett: Monofett, cursive;
+  --font-playfair: Playfair Display, serif;
+  --font-inter: Inter, sans-serif;
+
+  --color-primary: #001858;
+  --color-accent: #f582ae;
+  --color-background: #f0f0f0;
+  --color-cta: #8bd3dd;
+  --color-text: #333333;
+  --color-border: #cccccc;
+  --color-shadow: rgba(0, 0, 0, 0.15);
+  --color-highlight: #ffcc00;
+  --color-link: #007bff;
+  --color-success: #28a745;
+  --color-warning: #ffc107;
+  --color-error: #dc3545;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-grotesk);
+    background-color: var(--color-background);
+    color: var(--color-text);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-grotesk);
+  }
+
+  /* a {
+    color: var(--color-link);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  } */
+}
