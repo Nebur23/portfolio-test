@@ -1,6 +1,6 @@
 {
   "name": "gsap-tuto",
-  "homepage": "https://nebur23.github.io/portfolio/",
+  "homepage": "https://nebur23.github.io/portfolio/", 
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "pnpm build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "pnpm build && gh-pages -d dist --branch gh-pages --repo https://github.com/Nebur23/portfolio.git"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
